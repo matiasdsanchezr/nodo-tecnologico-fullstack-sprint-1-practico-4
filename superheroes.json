@@ -6,18 +6,9 @@
     "edad": 25,
     "planetaOrigen": "Tierra",
     "debilidad": "Radioactiva",
-    "poderes": [
-      "Trepar paredes",
-      "Sentido arácnido",
-      "Super fuerza",
-      "Agilidad"
-    ],
-    "aliados": [
-      "Ironman"
-    ],
-    "enemigos": [
-      "Duende Verde"
-    ]
+    "poderes": ["Trepar paredes", "Sentido arácnido", "Super fuerza", "Agilidad"],
+    "aliados": ["Ironman"],
+    "enemigos": ["Duende Verde"]
   },
   {
     "id": 2,
@@ -26,35 +17,8 @@
     "edad": 45,
     "planetaOrigen": "Tierra",
     "debilidad": "Dependiente de la tecnologia",
-    "poderes": [
-      "Armadura blindada",
-      "Volar",
-      "Láseres"
-    ],
-    "aliados": [
-      "Spiderman"
-    ],
-    "enemigos": [
-      "Mandarín"
-    ]
-  },
-  {
-    "id": 3,
-    "nombreSuperHeroe": "Hulk",
-    "nombreReal": "Bruce Banner",
-    "edad": 40,
-    "planetaOrigen": "Tierra",
-    "debilidad": "Control de emociones",
-    "poderes": [
-      "Super fuerza",
-      "Regeneración"
-    ],
-    "aliados": [
-      "Thor",
-      "Ironman"
-    ],
-    "enemigos": [
-      "Abominación"
-    ]
+    "poderes": ["Armadura blindada", "Volar", "Láseres"],
+    "aliados": ["Spiderman"],
+    "enemigos": ["Mandarín"]
   }
 ]
