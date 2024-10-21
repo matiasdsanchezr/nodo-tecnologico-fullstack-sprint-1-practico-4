@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nombreSuperHeroe": "Spiderman",
+    "nombreReal": "Peter Parker",
+    "edad": 25,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Radioactiva",
+    "poderes": ["Trepar paredes", "Sentido arácnido", "Super fuerza", "Agilidad"],
+    "aliados": ["Ironman"],
+    "enemigos": ["Duende Verde"]
+  },
+  {
+    "id": 2,
+    "nombreSuperHeroe": "Ironman",
+    "nombreReal": "Tony Stark",
+    "edad": 45,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Dependiente de la tecnologia",
+    "poderes": ["Armadura blindada", "Volar", "Láseres"],
+    "aliados": ["Spiderman"],
+    "enemigos": ["Mandarín"]
+  }
+]

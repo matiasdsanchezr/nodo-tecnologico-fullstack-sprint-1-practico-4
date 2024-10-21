@@ -1,0 +1,42 @@
+GET http://localhost:3000/superheroes HTTP/1.1
+
+###
+
+GET http://localhost:3000/superheroes/id/1 HTTP/1.1
+
+###
+
+POST http://localhost:3000/superheroes/ HTTP/1.1
+content-type: application/json
+
+{
+    "nombreSuperHeroe": "Hulk",
+    "nombreReal": "Bruce Banner",
+    "edad": 40,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Control de emociones",
+    "poderes": ["Super fuerza", "Regeneración"], "aliados": ["Thor", "Ironman"],
+    "enemigos": ["Abominación"]
+}
+
+###
+
+PUT http://localhost:3000/superheroes/1 HTTP/1.1
+content-type: application/json
+
+{
+    "nombreSuperHeroe": "Hulk",
+    "edad": 26
+}
+
+###
+
+DELETE http://localhost:3000/superheroes/5 HTTP/1.1
+
+###
+
+GET http://localhost:3000/superheroes/atributo/nombreSuperHeroe/Ironman HTTP/1.1
+
+###
+
+GET http://localhost:3000/superheroes/filtros/avanzados HTTP/1.1
