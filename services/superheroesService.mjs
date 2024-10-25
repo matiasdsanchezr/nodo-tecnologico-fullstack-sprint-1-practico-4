@@ -1,5 +1,6 @@
 import SuperheroesRepository from "../persistence/superheroesRepository.mjs";
 import Superheroe from "../models/superheroe.mjs";
+
 const repository = new SuperheroesRepository();
 
 export function obtenerSuperheroePorId(id) {

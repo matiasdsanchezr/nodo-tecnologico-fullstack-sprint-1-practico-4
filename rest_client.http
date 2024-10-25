@@ -2,7 +2,7 @@
 GET http://localhost:3005/superheroes/id/1 HTTP/1.1
 
 ### Obtener superhéroes con determinado atributo
-GET http://localhost:3005/superheroes/atributo/nombreSuperHeroe/Ironman HTTP/1.1
+GET http://localhost:3005/superheroes/atributo/planetaOrigen/Tierra HTTP/1.1
 
 ### Obtener superhéroes mayores de 30
 GET http://localhost:3005/superheroes/edad/mayorA30 HTTP/1.1
@@ -32,13 +32,13 @@ content-type: application/json
 }
 
 ### Modificar los datos de un superhéroe
-PUT http://localhost:3005/superheroes/1 HTTP/1.1
+PUT http://localhost:3005/superheroes/1729872836514 HTTP/1.1
 content-type: application/json
 
 {
-    "nombreSuperHeroe": "Matias",
-    "edad": 40
+    "nombreSuperHeroe": "World Breaker Hulk",
+    "edad": 45
 }
 
 ### Eliminar un superhéroe
-DELETE http://localhost:3005/superheroes/2 HTTP/1.1
+DELETE http://localhost:3005/superheroes/1729872836514 HTTP/1.1
