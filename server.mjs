@@ -6,23 +6,23 @@ import {
   actualizarSuperheroePorId,
   eliminarSuperheroePorId,
   buscarSuperheroesPorAtributoController,
-  obtenerSuperheroesMayoresDe30YConFiltrosController,
+  obtenerSuperheroesMayoresDe30Controller,
 } from "./controllers/superheroesController.mjs";
 
 const app = express();
 app.use(express.json());
 const PORT = 3005;
 
-app.get("/superheroes", obtenerTodosLosSuperheroes);
 app.get("/superheroes/id/:id", obtenerSuperheroePorIdController);
+app.get("/superheroes/atributo/:atributo/:valor", buscarSuperheroesPorAtributoController);
+app.get("/superheroes/edad/MayorA30", obtenerSuperheroesMayoresDe30Controller);
+
+// Obsoleto
+app.get("/superheroes", obtenerTodosLosSuperheroes);
 app.post("/superheroes", agregarNuevoSuperheroe);
 app.put("/superheroes/:id", actualizarSuperheroePorId);
 app.delete("/superheroes/:id", eliminarSuperheroePorId);
-app.get("/superheroes/atributo/:atributo/:valor", buscarSuperheroesPorAtributoController);
-app.get(
-  "/superheroes/filtros/avanzados",
-  obtenerSuperheroesMayoresDe30YConFiltrosController
-);
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });

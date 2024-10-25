@@ -27,7 +27,7 @@ Finalmente, probaremos el funcionamiento del servidor usando Postman, una herram
    - **GET /superheroes/atributo/:atributo/:valor:** Devuelve una lista de superhéroes que cumplen con un atributo específico (nombre, edad, planeta, etc.).
    - **GET /superheroes/filtros/avanzados:** Devuelve superhéroes mayores de 30 años, que sean de la Tierra y que tengan al menos 2 poderes.
 
-### Notas
+### Notas:
 
 Se ha añadido un archivo rest_client.http para facilitar las pruebas en los endpoints utilizando la extensión Rest Client de Visual Studio Code. Esto permite realizar pruebas de manera más eficiente y directa dentro del entorno de desarrollo
 

@@ -1,24 +1,86 @@
 [
   {
     "id": 1,
-    "nombreSuperHeroe": "Spiderman",
+    "nombreSuperHeroe": "Matias",
     "nombreReal": "Peter Parker",
-    "edad": 25,
+    "nombreSociedad": "Vigilante",
+    "edad": 40,
     "planetaOrigen": "Tierra",
     "debilidad": "Radioactiva",
-    "poderes": ["Trepar paredes", "Sentido arácnido", "Super fuerza", "Agilidad"],
-    "aliados": ["Ironman"],
-    "enemigos": ["Duende Verde"]
+    "poderes": [
+      "Trepar paredes",
+      "Sentido arácnido",
+      "Super fuerza",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Redes de telaraña",
+    "aliados": [
+      "Ironman"
+    ],
+    "enemigos": [
+      "Duende Verde"
+    ]
   },
   {
     "id": 2,
     "nombreSuperHeroe": "Ironman",
     "nombreReal": "Tony Stark",
+    "nombreSociedad": "Vigilante",
     "edad": 45,
     "planetaOrigen": "Tierra",
     "debilidad": "Dependiente de la tecnologia",
-    "poderes": ["Armadura blindada", "Volar", "Láseres"],
-    "aliados": ["Spiderman"],
-    "enemigos": ["Mandarín"]
+    "poderes": [
+      "Armadura blindada",
+      "Volar",
+      "Láseres"
+    ],
+    "habilidadEspecial": "Ingeniería Avanzada",
+    "aliados": [
+      "Spiderman"
+    ],
+    "enemigos": [
+      "Mandarín"
+    ]
+  },
+  {
+    "id": 3,
+    "nombreSuperHeroe": "Thor",
+    "nombreReal": "Thor Odinson",
+    "nombreSociedad": "Dios del Trueno",
+    "edad": 1000,
+    "planetaOrigen": "Asgard",
+    "debilidad": "Destruir su martillo",
+    "poderes": [
+      "Controlar el trueno",
+      "Fuerza Sobrehumana",
+      "Inmortal"
+    ],
+    "habilidadEspecial": "Invocación de tormentas",
+    "aliados": [
+      "Loki"
+    ],
+    "enemigos": [
+      "Hela"
+    ]
+  },
+  {
+    "id": 1729602461309,
+    "nombreSuperHeroe": "Hulk",
+    "nombreReal": "Bruce Banner",
+    "nombreSociedad": "Sociedad de la Justicia",
+    "edad": 40,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Control de emociones",
+    "poderes": [
+      "Super fuerza",
+      "Regeneración"
+    ],
+    "habilidadEspecial": "Inteligencia",
+    "aliados": [
+      "Rick Jones"
+    ],
+    "enemigos": [
+      "Abominación"
+    ]
   }
 ]
